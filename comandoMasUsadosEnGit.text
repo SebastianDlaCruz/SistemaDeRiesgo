@@ -1,0 +1,12 @@
+1)Para agregar los archivos : git add . o gi add nombreDelArchivo.extencion.
+2) Para ver los archivos agregados al area de trabajo : git status -s.
+3) Para darle un commit antes de darle el push : git commit -m 'descripcion'.
+3) Para darle el pus : Si estas en un rama nueva primero le tenes que decir el origion  a donde tiene
+que hacer el push con git push -u origin NOMBRE DE LA RAMA.
+Si ya se lo diste solamente tendras que hacer git push.
+4) Crear una nueva rama y moverme a ella  git checkout -b NOMBRE-NUEVA-RAMA
+5) Para ver las ramas del proyecto usamos git branch -a.
+6) Para moverme entre ramas usamos git checkout NOMBRE-DE-LA-RAMA.
+Aclaracion importante , si por alguna razon no te deja cambiar de rama puede ser por que no guardaste 
+los cambios de los archivos en las rama donde se encutra lo recomendable es hacer un git add , git commi y luego el push 
+antes de cambiar de rama .
