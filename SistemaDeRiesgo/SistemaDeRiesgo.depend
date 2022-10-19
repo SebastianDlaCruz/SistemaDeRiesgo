@@ -1,0 +1,60 @@
+# depslib dependency file v1.0
+1666187487 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\items.cpp
+	<iostream>
+	<string>
+	"Items.h"
+
+1663886470 c:\users\sebas\desktop\tp\sistemaderiesgo\include\items.h
+
+1666190587 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\menu.cpp
+	<iostream>
+	<string>
+	"Items.h"
+	"Menu.h"
+
+1666188819 c:\users\sebas\desktop\tp\sistemaderiesgo\include\menu.h
+
+1666215849 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\menuprincipal.cpp
+	<iostream>
+	<string>
+	"Items.h"
+	"Menu.h"
+	"Fecha.h"
+	"MenuPrincipal.h"
+	"SistemaDeRiesgo.h"
+	"ArchivoDeSistemaDeRiesgo.h"
+	"../funcionesGenerales.h"
+
+1666213884 c:\users\sebas\desktop\tp\sistemaderiesgo\include\menuprincipal.h
+
+1666214378 source:c:\users\sebas\desktop\tp\sistemaderiesgo\main.cpp
+	<iostream>
+	<array>
+	<string>
+	"Items.h"
+	"Menu.h"
+	"MenuPrincipal.h"
+
+1666195715 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\fecha.cpp
+	<iostream>
+	"Fecha.h"
+
+1666195754 c:\users\sebas\desktop\tp\sistemaderiesgo\include\fecha.h
+
+1666216598 c:\users\sebas\desktop\tp\sistemaderiesgo\include\sistemaderiesgo.h
+
+1666217171 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\sistemaderiesgo.cpp
+	<iostream>
+	"Fecha.h"
+	"SistemaDeRiesgo.h"
+
+1666215460 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivodesistemaderiesgo.h
+
+1666216357 c:\users\sebas\desktop\tp\sistemaderiesgo\funcionesgenerales.h
+
+1666216443 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivodesistemaderiesgo.cpp
+	<iostream>
+	"Fecha.h"
+	"SistemaDeRiesgo.h"
+	"ArchivoDeSistemaDeRiesgo.h"
+
