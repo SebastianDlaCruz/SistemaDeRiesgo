@@ -4,7 +4,7 @@
 	<string>
 	"Items.h"
 
-1663886470 c:\users\sebas\desktop\tp\sistemaderiesgo\include\items.h
+1667316154 c:\users\sebas\desktop\tp\sistemaderiesgo\include\items.h
 
 1666190587 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\menu.cpp
 	<iostream>
@@ -12,11 +12,12 @@
 	"Items.h"
 	"Menu.h"
 
-1666188819 c:\users\sebas\desktop\tp\sistemaderiesgo\include\menu.h
+1667316154 c:\users\sebas\desktop\tp\sistemaderiesgo\include\menu.h
 
-1666215849 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\menuprincipal.cpp
+1667314218 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\menuprincipal.cpp
 	<iostream>
 	<string>
+	"../rlutil.h"
 	"Items.h"
 	"Menu.h"
 	"Fecha.h"
@@ -27,13 +28,19 @@
 
 1666213884 c:\users\sebas\desktop\tp\sistemaderiesgo\include\menuprincipal.h
 
-1666214378 source:c:\users\sebas\desktop\tp\sistemaderiesgo\main.cpp
+1667317173 source:c:\users\sebas\desktop\tp\sistemaderiesgo\main.cpp
 	<iostream>
 	<array>
 	<string>
+	<windows.h>
+	<conio.h>
+	"rlutil.h"
 	"Items.h"
 	"Menu.h"
-	"MenuPrincipal.h"
+	"SuperUser.h"
+	"Empresa.h"
+	"ArchivoEmpresa.h"
+	"funcionesGenerales.h"
 
 1666195715 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\fecha.cpp
 	<iostream>
@@ -41,20 +48,71 @@
 
 1666195754 c:\users\sebas\desktop\tp\sistemaderiesgo\include\fecha.h
 
-1666216598 c:\users\sebas\desktop\tp\sistemaderiesgo\include\sistemaderiesgo.h
+1666304528 c:\users\sebas\desktop\tp\sistemaderiesgo\include\sistemaderiesgo.h
 
-1666217171 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\sistemaderiesgo.cpp
+1666305259 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\sistemaderiesgo.cpp
 	<iostream>
 	"Fecha.h"
 	"SistemaDeRiesgo.h"
 
 1666215460 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivodesistemaderiesgo.h
 
-1666216357 c:\users\sebas\desktop\tp\sistemaderiesgo\funcionesgenerales.h
+1667317152 c:\users\sebas\desktop\tp\sistemaderiesgo\funcionesgenerales.h
+	"rlutil.h"
 
-1666216443 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivodesistemaderiesgo.cpp
+1667231880 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivodesistemaderiesgo.cpp
 	<iostream>
 	"Fecha.h"
 	"SistemaDeRiesgo.h"
 	"ArchivoDeSistemaDeRiesgo.h"
+
+1666217468 c:\users\sebas\desktop\tp\sistemaderiesgo\rlutil.h
+	<iostream>
+	<string>
+	<cstdio>
+	<stdio.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<termios.h>
+	<unistd.h>
+	<sys/ioctl.h>
+	<sys/types.h>
+	<sys/time.h>
+
+1666307960 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\tabla.cpp
+	<iostream>
+	<string.h>
+	"Tabla.h"
+
+1666307936 c:\users\sebas\desktop\tp\sistemaderiesgo\include\tabla.h
+
+1667317001 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\empresa.cpp
+	<iostream>
+	<string.h>
+	"SuperUser.h"
+	"Empresa.h"
+
+1667317027 c:\users\sebas\desktop\tp\sistemaderiesgo\include\empresa.h
+
+1667316950 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivo.cpp
+	<iostream>
+	"Archivo.h"
+
+1667314087 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivo.h
+
+1667315856 c:\users\sebas\desktop\tp\sistemaderiesgo\include\superuser.h
+
+1667316197 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\superuser.cpp
+	<iostream>
+	<string.h>
+	"SuperUser.h"
+
+1667316987 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivoempresa.cpp
+	<iostream>
+	"SuperUser.h"
+	"Empresa.h"
+	"ArchivoEmpresa.h"
+
+1667316936 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivoempresa.h
 

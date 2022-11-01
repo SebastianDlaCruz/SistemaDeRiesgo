@@ -35,19 +35,28 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="funcionesGenerales.h" />
+		<Unit filename="include/Archivo.h" />
 		<Unit filename="include/ArchivoDeSistemaDeRiesgo.h" />
+		<Unit filename="include/ArchivoEmpresa.h" />
+		<Unit filename="include/Empresa.h" />
 		<Unit filename="include/Fecha.h" />
 		<Unit filename="include/Items.h" />
 		<Unit filename="include/Menu.h" />
-		<Unit filename="include/MenuPrincipal.h" />
 		<Unit filename="include/SistemaDeRiesgo.h" />
+		<Unit filename="include/SuperUser.h" />
+		<Unit filename="include/Tabla.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="rlutil.h" />
+		<Unit filename="src/Archivo.cpp" />
 		<Unit filename="src/ArchivoDeSistemaDeRiesgo.cpp" />
+		<Unit filename="src/ArchivoEmpresa.cpp" />
+		<Unit filename="src/Empresa.cpp" />
 		<Unit filename="src/Fecha.cpp" />
 		<Unit filename="src/Items.cpp" />
 		<Unit filename="src/Menu.cpp" />
-		<Unit filename="src/MenuPrincipal.cpp" />
 		<Unit filename="src/SistemaDeRiesgo.cpp" />
+		<Unit filename="src/SuperUser.cpp" />
+		<Unit filename="src/Tabla.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

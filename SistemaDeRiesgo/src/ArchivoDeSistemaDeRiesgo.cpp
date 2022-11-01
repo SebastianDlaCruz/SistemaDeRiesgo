@@ -8,7 +8,7 @@ void ArchivoDeSistemaDeRiesgo::GrabarArchivoSistemaDeRiesgo(SistemaDeRiesgo sist
 
     FILE *punRiesgo;
 
-    punRiesgo = fopen("SistemaDeRiesgo.dat","ab");
+    punRiesgo = fopen("./data/SistemaDeRiesgo.dat","ab");
 
     if(punRiesgo == nullptr) exit(1550);
 
@@ -69,7 +69,7 @@ FILE* ArchivoDeSistemaDeRiesgo::abrirArchivo(){
 
    FILE *punRiesgo;
 
-    punRiesgo = fopen("SistemaDeRiesgo.dat","rb");
+    punRiesgo = fopen("./data/SistemaDeRiesgo.dat","rb");
 
     if(punRiesgo == nullptr) cout << "ERROR" << endl;
 

@@ -2,7 +2,7 @@
 #define MENU_H
 class Menu
 {
-    protected:
+    private:
         string _nombreDelItem;
         int _cantidadDeItems;
         Items *_item;

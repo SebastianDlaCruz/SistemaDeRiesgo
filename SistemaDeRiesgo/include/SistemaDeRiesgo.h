@@ -16,9 +16,12 @@ class SistemaDeRiesgo
     public:
 
         SistemaDeRiesgo();
-        void CargarSistemaDeRiesgo();
-        void MostrarSistemaDeRiesgo();
-
+        bool CargarSistemaDeRiesgo();
+        void MostrarSistemaDeRiesgo ();
+        bool validarValoresDistintosDeCero(int);
+        bool ValidarDeficiencia(int);
+        bool ValidarExposicion(int);
+        bool ValidarConsecuencia(int);
         void setProbabilidad(int);
         int getProbabilidad();
         void setNivelDeRiesgo(int);

@@ -2,8 +2,8 @@
 #define ITEMS_H
 
 
-class Items
-{
+class Items{
+
     private:
         string nombreDeItem;
     public:
