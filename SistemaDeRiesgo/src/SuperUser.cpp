@@ -18,3 +18,23 @@ void SuperUser::CargarSuperUser(){
     cout << "INGRESA LA CONTRASEÑA:" << endl;
     cin.getline(_contrasenia,15,'\n');
 }
+
+const char* SuperUser::getEmail(){
+
+    return _email;
+}
+
+const char* SuperUser::getContrasenia(){
+
+    return _contrasenia;
+}
+
+void SuperUser::setEmail(const char* email){
+
+    strcpy(_email,email);
+}
+
+void SuperUser::setContrasenia(const char* contra){
+
+    strcpy(_contrasenia,contra);
+}

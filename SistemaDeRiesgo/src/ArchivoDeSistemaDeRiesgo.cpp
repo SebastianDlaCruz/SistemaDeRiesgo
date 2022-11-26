@@ -33,7 +33,7 @@ int ArchivoDeSistemaDeRiesgo::CantidadDeSistemas(){
 }
 
 
-SistemaDeRiesgo ArchivoDeSistemaDeRiesgo ::  leer(int cantidad){
+SistemaDeRiesgo ArchivoDeSistemaDeRiesgo :: leer(int cantidad){
 
     SistemaDeRiesgo sistema;
 
@@ -75,3 +75,4 @@ FILE* ArchivoDeSistemaDeRiesgo::abrirArchivo(){
 
     return punRiesgo;
 }
+

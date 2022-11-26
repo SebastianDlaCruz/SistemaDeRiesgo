@@ -7,7 +7,7 @@ class Empresa
     private:
         int _idEmpresa;
         char _nombreDeLaEmpresa[50];
-        int  _areaDelTrabajo;
+        char _areaDelTrabajo[20];
         int _cantidadDePisos;
         SuperUser  _user;
 
@@ -18,15 +18,14 @@ class Empresa
             void MostrarEmpresa();
             void ModificarEmpresa();
             void CargarPersonal();
-
+            void Modificar();
             void BuscarSistemaDSeRiesgo();
 
             int getIdEmpresa();
-            int getNominaAlta();
-            int getNominaBaja();
 
+            SuperUser getUser();
 
-
+            SuperUser getSuperUser();
 
 };
 

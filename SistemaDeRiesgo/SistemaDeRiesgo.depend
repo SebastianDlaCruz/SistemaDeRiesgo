@@ -28,19 +28,20 @@
 
 1666213884 c:\users\sebas\desktop\tp\sistemaderiesgo\include\menuprincipal.h
 
-1667317173 source:c:\users\sebas\desktop\tp\sistemaderiesgo\main.cpp
+1667838354 source:c:\users\sebas\desktop\tp\sistemaderiesgo\main.cpp
 	<iostream>
 	<array>
 	<string>
 	<windows.h>
 	<conio.h>
+	<vector>
 	"rlutil.h"
 	"Items.h"
 	"Menu.h"
 	"SuperUser.h"
 	"Empresa.h"
 	"ArchivoEmpresa.h"
-	"funcionesGenerales.h"
+	"MenuEmpresa.h"
 
 1666195715 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\fecha.cpp
 	<iostream>
@@ -60,7 +61,7 @@
 1667317152 c:\users\sebas\desktop\tp\sistemaderiesgo\funcionesgenerales.h
 	"rlutil.h"
 
-1667231880 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivodesistemaderiesgo.cpp
+1668270522 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivodesistemaderiesgo.cpp
 	<iostream>
 	"Fecha.h"
 	"SistemaDeRiesgo.h"
@@ -87,13 +88,14 @@
 
 1666307936 c:\users\sebas\desktop\tp\sistemaderiesgo\include\tabla.h
 
-1667317001 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\empresa.cpp
+1668273234 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\empresa.cpp
 	<iostream>
 	<string.h>
+	<vector>
 	"SuperUser.h"
 	"Empresa.h"
 
-1667317027 c:\users\sebas\desktop\tp\sistemaderiesgo\include\empresa.h
+1668271613 c:\users\sebas\desktop\tp\sistemaderiesgo\include\empresa.h
 
 1667316950 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivo.cpp
 	<iostream>
@@ -101,18 +103,22 @@
 
 1667314087 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivo.h
 
-1667315856 c:\users\sebas\desktop\tp\sistemaderiesgo\include\superuser.h
+1667863581 c:\users\sebas\desktop\tp\sistemaderiesgo\include\superuser.h
 
-1667316197 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\superuser.cpp
+1667863677 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\superuser.cpp
 	<iostream>
 	<string.h>
 	"SuperUser.h"
 
-1667316987 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivoempresa.cpp
+1668273374 source:c:\users\sebas\desktop\tp\sistemaderiesgo\src\archivoempresa.cpp
 	<iostream>
+	<string.h>
 	"SuperUser.h"
 	"Empresa.h"
 	"ArchivoEmpresa.h"
 
-1667316936 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivoempresa.h
+1668272284 c:\users\sebas\desktop\tp\sistemaderiesgo\include\archivoempresa.h
+
+1668273497 c:\users\sebas\desktop\tp\sistemaderiesgo\menuempresa.h
+	"rlutil.h"
 

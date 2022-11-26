@@ -11,6 +11,11 @@ class SuperUser
         SuperUser();
     void CargarSuperUser();
 
+    void setEmail(const char*);
+    void setContrasenia(const char*);
+
+    const char* getEmail();
+    const char* getContrasenia();
 };
 
 #endif // SUPERUSER_H

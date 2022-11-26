@@ -34,7 +34,7 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="funcionesGenerales.h" />
+		<Unit filename="MenuEmpresa.h" />
 		<Unit filename="include/Archivo.h" />
 		<Unit filename="include/ArchivoDeSistemaDeRiesgo.h" />
 		<Unit filename="include/ArchivoEmpresa.h" />

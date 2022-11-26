@@ -20,7 +20,7 @@ void menuDeEmpresa(){
     menu.CargarItem("3)CARGAR PERSONAL");
     menu.CargarItem("4)MODIFICAR EMPRESA");
     menu.CargarItem("5)AGREGAR PERSONAL");
-    menu.CargarItem("6)SECTOR DE LA EMPRESA");
+    menu.CargarItem("6)BUSCAR SISTEMA DE RIESGO");
 
     int opcion = 0;
 
@@ -36,10 +36,38 @@ void menuDeEmpresa(){
         switch(opcion){
 
             case 1 :
-                    empre.CargarEmpresa();
+                {
+
+                        empre.CargarEmpresa();
                     arcEmpresa.GrabarEmpresa(empre);
+                }
+
                 break;
-            case 2 :
+        case 2 :
+                    arcEmpresa.ListarEmpresa();
+                break;
+
+            case 3 :
+                    empre.CargarPersonal();
+
+                    if(arcEmpresa.BuscarUsuario(
+                        empre.getSuperUser().getEmail(),
+                        empre.getSuperUser().getContrasenia())){
+
+                            cout << "EXITO: USUARIO VALIDO" << endl;
+
+                        }else{
+
+                             cout << "ERROR: USUARIO INVALIDO" << endl;
+                        }
+
+
+                break;
+
+            case 4:
+
+                arcEmpresa.ModificarArchivoEmpresa();
+
                 break;
             case 6:
                 /// ACA DEBE IR EL MENU DEL SECTOR
