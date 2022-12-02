@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "Fecha.h"
+#include "../include/Fecha.h"
 
 Fecha::Fecha()
 {
@@ -9,7 +9,7 @@ Fecha::Fecha()
     _anio = 0;
 }
 
-void Fecha ::CargarFecha(){
+int Fecha::CargarFecha(){
 
     cout << "INGRESE DIA:";
     cin >> _dia;
@@ -19,8 +19,12 @@ void Fecha ::CargarFecha(){
     cin >> _anio;
 
 }
-
-void Fecha::MostrarFecha(){
+int Fecha::MostrarFecha(){
 
     cout << _dia << " / " << _mes << " / "  << _anio << endl;
 }
+
+int Fecha ::getDia(){return _dia;}
+int Fecha ::getMes(){return _mes;}
+int Fecha ::getAnio(){return _anio;}
+

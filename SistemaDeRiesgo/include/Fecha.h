@@ -9,10 +9,13 @@ class Fecha
         int _mes;
         int _anio;
     public:
-        Fecha();
+    Fecha();
+       CargarFecha();
+       MostrarFecha();
+       getDia();
+       getMes();
+        getAnio();
 
-       void CargarFecha();
-       void MostrarFecha();
 
 
 
